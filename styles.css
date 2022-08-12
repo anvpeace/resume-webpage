@@ -1,0 +1,34 @@
+
+body{
+    background-color: rgba(116, 115, 115, 0.25);
+}
+
+
+
+
+.name-photo-skills-container{
+    width: 300px;
+    background-color: white;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0 ;
+    border: none;
+}
+
+.name-container{
+    display: block;
+    /* margin-top: 30px; */
+    text-align: left;
+    padding: 15px;
+}
+.pic-container{
+    display: block;
+    margin-top: 30px;
+}
+
+.education{
+    display: block;
+    margin-top: 60px; 
+    margin-left: 20px;
+}
