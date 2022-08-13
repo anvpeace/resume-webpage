@@ -12,6 +12,8 @@ body{
     width: 300px;
     background-image: linear-gradient(rgba(247, 238, 238, 0.681), rgba(197, 195, 195, 0.727));
     display: block;
+    /* display: flex;
+    justify-content: left; */
     margin-left: 0px;
     margin-top: 0px;
     padding-top: 0 ;
@@ -49,13 +51,15 @@ body{
 
 h2{
     font-family: 'Roboto Condensed', sans-serif;
+   
 
 }
 
 h3{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 20px;
+    
 }
 
 h4{
@@ -74,3 +78,62 @@ h5{
 .skills-content{
 margin-left: 15px;;
 }
+
+
+/* CSS for right side of page */
+
+
+.name-about-me-container{
+       display: flex;
+    /* justify-content: left; */
+    /* width: 600px; */
+    
+}
+
+.about-container{
+   display: inline;
+    /* width: 600px; */
+    margin-bottom: 50px;
+
+}
+
+.about-content{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 20px;
+    padding:10px;
+
+}
+
+#about-header{
+    padding-left: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+
+}
+
+#about-par{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: left;
+}
+
+.contact-info-container{
+    display: inline;
+    margin-top: 300px;
+}
+
+.contact-info-content{
+    margin-left: 50px;
+}
+
+.list-container{
+    display: flex;
+    /* justify-content: center; */
+    
+}
+
+/* ui{
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+} */
