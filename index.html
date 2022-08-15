@@ -30,7 +30,7 @@
                 <div class="about-container" style="width: 700px; height: 200px;">
                     <div class="about-content">
                         <h1 id="about-header">ABOUT ME</h1>
-                        <p id="about-par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum officia exercitationem quisquam laborum excepturi culpa adipisci vel laudantium eligendi perferendis! Officiis similique quos ratione distinctio soluta quas expedita laudantium cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odio nihil illum illo nisi perferendis odit tenetur delectus officia itaque debitis rerum, quis possimus beatae veniam amet nemo quod sunt.</p>
+                        <p id="about-par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum officia exercitationem quisquam laborum excepturi culpa adipisci vel laudantium eligendi perferendis! Officiis similique quos ratione distinctio soluta quas expedita laudantium cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odio nihil illum illo nisi perferendis odit tenetur delectus officia itaque debitis rerum, quis possimus beatae veniam amet nemo quod sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi iusto temporibus fuga debitis at sint optio esse laudantium recusandae vero non, molestias rerum sequi amet labore explicabo corporis est.</p>
                     </div>
 
                     <div class="contact-info-container"  style="width: 700px; height: 200px;">
@@ -40,21 +40,23 @@
 
                                 <div class="contact-list-one">
                                     <ol>
-                                        <ui>awesomecoderchick@gmail.com</ui>
-                                        <br>
-                                        <ui>New York, New York</ui>
+                                        <ui id="top-one">awesomecoderchick@gmail.com</ui>
+                                        <BR></BR>
+                                        <ui id="bottom-one">New York, New York</ui>
         
                                     </ol>
                                 </div>
 
                                 <div class="contact-list-two">
-                                    <ol>
-                                        <ui>Github Webpage</ui>
-                                        <br>
-                                        <ui>Portfolio Webpage</ui>
+                                    <ol id="bottom-pair">
+                                        <ui id="top-two">Github Webpage</ui>
+                                        <BR style="height:30px;"></BR>
+                                        <ui id="bottom-two">Portfolio Webpage</ui>
                                         <!-- <a href="https://github.com/anvpeace" target="_blank"> -->
                                     </ol>
+                                    
                                 </div>
+                                
                            
                             </div>
 
@@ -78,28 +80,62 @@
 
         </div> -->
 
+<!-- container is flex bc its parent element that holds ALL THE children elements displayed different ways -->
+        <div class="education-experience-container"> 
 
-        <div class="education-container">
+                <div class="experience-container">
+                    <!-- skills container holds the skills header and content - a block level element so that  -->
+                    <div class="education-skill-content">
+                            <div class="ed-content">
+                                <h2 style="font-weight: bold;">Education</h2>
+                                <h5>year</h5>
+                                <h3>degree</h3>
+                                <h4>school name</h4>
 
-            <div class="ed-content">
-                <h2 style="font-weight: bold;">Education</h2>
-                <h5>year</h5>
-                <h3>degree</h3>
-                <h4>school name</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        
+                                    <h5 id="year-header">year</h5>
+                                    <h3>degree</h3>
+                                    <h4>school name</h4>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        
-                    <h5 id="year-header">year</h5>
-                    <h3>degree</h3>
-                    <h4>school name</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-
-            <div class="skills-content">
                 
-                <h2 style="font-weight: bold;">Key Skills</h2>
-            </div>
+                            </div>
+
+                            <div class="skills-container" style="width: 300px; height: 400px">
+                                <div class="skills-content" >
+                                    
+                                    <h2 style="font-weight: bold;">Key Skills</h2>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+
+
+                            <div class="experience">
+                                <h2 id="expo-header" style="font-weight: bold;">Experience</h2>
+                                <div class="expo-one">
+                                    <div class="company-role">
+                                        <h3>Role</h3>
+                                        <h4>Company</h4>
+
+                                    </div>
+
+                                    <div class="work-years">
+                                        <h4>Year</h4>
+                                    </div>
+
+
+                                </div>
+                               
+                                <div class="work-desc">
+                                    <p id="desc-par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ullam dolorem labore similique recusandae distinctio numquam quia culpa, accusantium deserunt voluptatem nihil soluta fugit voluptatibus iusto aliquam cupiditate quidem perferendis.</p>
+                                </div>
+            
+                            </div>
+
         </div>
     </body>
 </html>

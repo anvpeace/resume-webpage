@@ -33,8 +33,12 @@ body{
     display: block;
     margin-top: 30px;
 }
-.education-container{
-    display: inline;
+.education-experience-container{
+    display: flex;
+}
+
+.education-skill-content{
+    display: block;
 }
 .ed-content{
     width: 300px;
@@ -75,8 +79,12 @@ h5{
     font-size: 12px;
 }
 
+.skills-container{
+    display: block;
+}
 .skills-content{
 margin-left: 15px;;
+/* display: block; */
 }
 
 
@@ -102,38 +110,123 @@ margin-left: 15px;;
     margin-left: 25px;
     margin-right: 20px;
     padding:10px;
+   
 
 }
 
 #about-header{
     padding-left: 5px;
+    margin-left: 60px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
 
 }
 
 #about-par{
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     text-align: left;
+    font-size: 20px;
 }
 
 .contact-info-container{
     display: inline;
-    margin-top: 300px;
+    /* margin-top: 350px; */
 }
 
 .contact-info-content{
-    margin-left: 50px;
+    margin-left: 45px;
+    
 }
 
 .list-container{
     display: flex;
-    /* justify-content: center; */
+    margin-top: 5px;    /* justify-content: center; */
     
 }
 
-/* ui{
-    padding-left: 15px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+
+#bottom-pair{
+    margin-left: 70px;
+}
+
+ui {
+    border: solid;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+ol{
+    padding: 20px;
+}
+
+
+/* .experience-container{
+    display: inline;
+   
 } */
+.experience{
+    margin-top: 42px;
+}
+.expo-content{
+    display: inline;
+}
+
+/* .expo-information {
+    display: inline;
+    margin-left: 300px;
+}
+
+.role-comp-info{
+    display: block;
+}
+
+.work-year{
+    display: inline;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+
+/* .expo-one{
+    display: flex;
+} */ 
+
+.expo-one{
+    display: flex;
+}
+
+.company-role{
+    display: block;
+    margin-left: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.work-years{
+    display: inline;
+    margin-left: 400px;
+    margin-top: 9px;
+}
+
+.work-desc{
+    display: inline;
+    /* text-align: left; */
+    /* margin-left: 30px; */
+}
+
+#desc-par{
+        margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+
+
+}
+
+#expo-header{
+    margin-left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
