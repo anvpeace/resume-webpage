@@ -31,7 +31,7 @@ body{
 }
 .pict-cont{
     display: block;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .education-experience-container{
     display: flex;
@@ -67,6 +67,7 @@ h3{
 }
 
 h4{
+    margin-left: 52px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 100;
     font-size: 13px;
@@ -74,11 +75,17 @@ h4{
 
 
 h5{
-
      font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-size: 12px;
 }
 
+#github{
+    margin-left: 64px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
 .skills-container{
     display: block;
 }
@@ -145,6 +152,11 @@ margin-left: 15px;;
     
 }
 
+#list-header{
+    margin-left: 245px;
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 /* #bottom-pair{
     margin-left: 150px;
@@ -208,7 +220,12 @@ margin-left: 15px;;
 
 .expo-two{
     display: block;
-    margin-top: 70px;
+    margin-top: 40px;
+}
+
+.expo-three{
+    display: block;
+    margin-top: 40px; 
 }
 
 .company-role > h4{
@@ -221,6 +238,11 @@ margin-left: 15px;;
     width: 60px;
 }
 
+.company-role-three > h4{
+    display: inline;
+    width: 60px;
+}
+
 .company-role{
     display: block;
     margin-left: 30px;
@@ -229,6 +251,13 @@ margin-left: 15px;;
 }
 
 .company-role-two{
+    display: block;
+    margin-left: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.company-role-three{
     display: block;
     margin-left: 30px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -252,7 +281,13 @@ margin-left: 15px;;
 
 }
 
-.work-desc, .work-desc-two{
+.work-years-three > h4{
+    display: inline;
+    margin-left: 30px;
+
+}
+
+.work-desc, .work-desc-two, .work-desc-three{
     display: inline;
     /* text-align: left; */
     /* margin-left: 30px; */
@@ -260,7 +295,7 @@ margin-left: 15px;;
 
 
 
-#desc-par, #desc-par-two{
+#desc-par, #desc-par-two, #desc-par-three{
     margin-left: 30px;
     margin-right: 30px;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
