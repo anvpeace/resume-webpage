@@ -67,7 +67,6 @@ h3{
 }
 
 h4{
-    margin-left: 52px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 100;
     font-size: 13px;
@@ -146,11 +145,15 @@ margin-left: 15px;;
     
 }
 
+.contact-list-one{
+    /* display: inline; */
+}
 .list-container{
-    display: flex;
+    display: block;
     margin-top: 5px;    /* justify-content: center; */
     
 }
+
 
 #list-header{
     margin-left: 245px;
@@ -310,4 +313,17 @@ margin-left: 15px;;
     font-size: 32px;
     font-family: 'Roboto Condensed', sans-serif;
 
+}
+
+button{
+    display: inline-flex;
+  margin-left: 20px;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  padding: 2px;
+}
+
+.contact-list-two{
+    margin-top: 20px;
 }
